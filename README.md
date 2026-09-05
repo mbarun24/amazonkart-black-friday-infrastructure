@@ -52,55 +52,55 @@ The project was implemented under a restricted AWS service set to demonstrate ho
 
 ```text
 
-&#x20;                        Internet
+                        Internet
 
-&#x20;                           |
+                           |
 
-&#x20;                    Internet Gateway
+                    Internet Gateway
 
-&#x20;                           |
+                           |
 
-&#x20;                +----------------------+
+                +----------------------+
 
-&#x20;                |   AmazonKart VPC     |
+                |   AmazonKart VPC     |
 
-&#x20;                |    10.0.0.0/16      |
+                |    10.0.0.0/16      |
 
-&#x20;                +----------------------+
+                +----------------------+
 
-&#x20;                     |            |
+                     |            |
 
-&#x20;             Public Subnet    Private Subnet
+             Public Subnet    Private Subnet
 
-&#x20;             10.0.1.0/24     10.0.2.0/24
+             10.0.1.0/24     10.0.2.0/24
 
-&#x20;                  |             Isolated
+                  |             Isolated
 
-&#x20;                  |
+                  |
 
-&#x20;            EC2 Web Server
+            EC2 Web Server
 
-&#x20;             Apache HTTPD
+             Apache HTTPD
 
-&#x20;                  |
+                  |
 
-&#x20;         +--------+--------+
+         +--------+--------+
 
-&#x20;         |                 |
+         |                 |
 
-&#x20;        S3             CloudWatch
+        S3             CloudWatch
 
-&#x20;  Static + Backup    Metrics + Logs
+  Static + Backup    Metrics + Logs
 
-&#x20;         |
+         |
 
-&#x20;    Daily Backup
+    Daily Backup
 
-&#x20;    Bash + Cron
+    Bash + Cron
 
 
 
-IAM â†’ Least-Privilege Access
+IAM  Least-Privilege Access
 
 
 
