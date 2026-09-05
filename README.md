@@ -846,7 +846,7 @@ For a real large-scale production environment, additional high-availability and 
 
 
 
-## ðŸŽ¯ Skills Demonstrated
+## Skills Demonstrated
 
 
 
@@ -858,7 +858,7 @@ For a real large-scale production environment, additional high-availability and 
 
 
 
-## ðŸ”’ Security Notice
+## Security Notice
 
 
 
@@ -872,9 +872,33 @@ Sensitive credentials should never be committed to source control.
 
 ---
 
+## Project Evidence
 
+### Production Website
 
-## ðŸ“š Documentation
+![Production Website](screenshots/production-website.png)
+
+### CloudWatch Monitoring Dashboard
+
+![CloudWatch Dashboard](screenshots/cloudwatch-dashboard.png)
+
+### Centralized CloudWatch Logs
+
+![CloudWatch Logs](screenshots/cloudwatch-logs.png)
+
+### Private S3 Static Content
+
+![S3 Static Content](screenshots/s3-static.png)
+
+### Automated S3 Backup
+
+![S3 Backup](screenshots/s3-backup.png)
+
+### Disaster Recovery Test
+
+![Disaster Recovery](screenshots/dr-recovery.png)
+
+## Documentation
 
 
 
@@ -886,7 +910,7 @@ Detailed implementation steps, commands, troubleshooting notes, and disaster rec
 
 
 
-## ðŸ‘¨â€ðŸ’» Author
+## Author
 
 
 
