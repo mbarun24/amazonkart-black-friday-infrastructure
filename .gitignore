@@ -1,0 +1,19 @@
+# AWS credentials / SSH keys
+*.pem
+*.key
+*.ppk
+
+# Environment / secrets
+.env
+.env.*
+*credentials*
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
